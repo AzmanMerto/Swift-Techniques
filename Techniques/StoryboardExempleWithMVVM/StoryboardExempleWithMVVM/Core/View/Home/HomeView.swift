@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeView.swift
 //  StoryboardExempleWithMVVM
 //
 //  Created by NomoteteS on 7.04.2023.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
 }
-
