@@ -14,8 +14,9 @@ class NetworkManager {
     
     private init() {}
     
-    func download(url: URL, completion: @escaping (Result<Data, Error>) -> ()) {
-        URLSession.shared.dataTask(with: url) { data, response, error in
+    @discardableResult
+    func download(url: URL, completion: @escaping (Result<Data, Error>) -> ()) -> URLSessionDataTask {
+        let dataTask = URLSession.shared.dataTask(with: url) { data, response, error in
            //Way2.1 :Check error
             if let error = error {
                 print("FIXto NetworkManager error: \(error.localizedDescription)")
@@ -38,5 +39,8 @@ class NetworkManager {
             }
             completion(.success(data))
         }
+        
+        dataTask.resume()
+        return dataTask
     }
 }

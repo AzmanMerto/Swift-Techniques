@@ -9,8 +9,8 @@ import Foundation
 
 class MovieService {
     //Way4: Service
-    func downloadMovies(completion: @escaping ([MovieResult]?) -> ()) {
-        guard let url = URL(string: "https://api.themoviedb.org/3/movie/popular?api_key=e2883b87a542986d7ea2df12dada6b58&language=en-US&page=1") else { return }
+    func downloadMovies(page: Int, completion: @escaping ([MovieResult]?) -> ()) {
+        guard let url = URL(string: APIURLs.movies(page: page)) else { return }
         //Way4.1: Get data from json and escaping
         NetworkManager.shared.download(url: url) { [weak self] result in
             guard let self = self else { return }
@@ -22,6 +22,22 @@ class MovieService {
             }
         }
     }
+    
+    func downloadDetail(id: Int, completion: @escaping (MovieResult?) -> ()) {
+        guard let url = URL(string: APIURLs.detail(id: id)) else { return }
+        
+        NetworkManager.shared.download(url: url) { [weak self] result in
+            guard let self = self else { return }
+            
+            switch result {
+            case .success(let success):
+                completion(self.handleWithData(success))
+            case .failure(let failure):
+                self.handleWithError(failure)
+            }
+        }
+    }
+    
      private func handleWithError(_ error: Error) {
         print("FIXto MovieService handleWithError: \(error.localizedDescription)")
     }
@@ -32,6 +48,16 @@ class MovieService {
             return movie.result
         } catch {
             print("FIXto MovieService handleWithData: \(error.localizedDescription)")
+            return nil
+        }
+    }
+    
+    private func handleWithData(_ data: Data) -> MovieResult? {
+        do {
+            let movieDetail = try JSONDecoder().decode(MovieResult.self, from: data)
+            return movieDetail
+        } catch  {
+            print(error)
             return nil
         }
     }
