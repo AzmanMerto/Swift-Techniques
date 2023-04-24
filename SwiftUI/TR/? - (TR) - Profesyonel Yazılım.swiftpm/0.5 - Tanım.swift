@@ -34,6 +34,12 @@ struct Tanim: View {
                 } label: {
                     Text("5 - CustomShape")
                 }
+                NavigationLink {
+                    GenericsCamp()
+                } label: {
+                    Text("6 - Generics")
+                }
+
             }
         }
     }
