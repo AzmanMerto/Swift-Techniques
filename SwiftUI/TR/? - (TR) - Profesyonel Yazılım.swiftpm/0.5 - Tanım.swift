@@ -39,6 +39,13 @@ struct Tanim: View {
                 } label: {
                     Text("6 - Generics")
                 }
+                NavigationLink {
+                    AdvancedCombineCampView()
+
+                } label: {
+                        Text("asldmalskmd")
+                }
+
 
             }
         }
