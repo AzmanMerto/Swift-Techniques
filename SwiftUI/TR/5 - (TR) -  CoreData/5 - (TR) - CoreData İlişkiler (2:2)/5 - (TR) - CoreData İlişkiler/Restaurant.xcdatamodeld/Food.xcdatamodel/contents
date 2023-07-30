@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CollationEntity" representedClassName="CollationEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="calories" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUsing" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="drink" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DrinkEntity" inverseName="collation" inverseEntity="DrinkEntity"/>
+        <relationship name="food" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FoodEntity" inverseName="collation" inverseEntity="FoodEntity"/>
+    </entity>
+    <entity name="DrinkEntity" representedClassName="DrinkEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="collation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CollationEntity" inverseName="drink" inverseEntity="CollationEntity"/>
+        <relationship name="food" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FoodEntity" inverseName="drink" inverseEntity="FoodEntity"/>
+    </entity>
+    <entity name="FoodEntity" representedClassName="FoodEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="collation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CollationEntity" inverseName="food" inverseEntity="CollationEntity"/>
+        <relationship name="drink" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DrinkEntity" inverseName="food" inverseEntity="DrinkEntity"/>
+    </entity>
+</model>

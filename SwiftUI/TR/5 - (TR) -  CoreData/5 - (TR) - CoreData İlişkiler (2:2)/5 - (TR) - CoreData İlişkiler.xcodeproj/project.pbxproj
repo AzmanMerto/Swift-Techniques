@@ -7,26 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		349C05F52A73407100D10C43 /* _____TR____CoreData_Yap__Olus_turmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C05F42A73407100D10C43 /* _____TR____CoreData_Yap__Olus_turmaApp.swift */; };
-		349C05F72A73407100D10C43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C05F62A73407100D10C43 /* ContentView.swift */; };
-		349C05F92A73407300D10C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349C05F82A73407300D10C43 /* Assets.xcassets */; };
-		349C05FC2A73407300D10C43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349C05FB2A73407300D10C43 /* Preview Assets.xcassets */; };
-		349C06042A73409500D10C43 /* CountryName.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 349C06022A73409400D10C43 /* CountryName.xcdatamodeld */; };
-		34B079D02A73532E00EFDD40 /* AddCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B079CF2A73532E00EFDD40 /* AddCountryView.swift */; };
+		34AD4EB82A74D12200CFA708 /* _____TR____CoreData_I_lis_kilerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD4EB72A74D12200CFA708 /* _____TR____CoreData_I_lis_kilerApp.swift */; };
+		34AD4EBA2A74D12200CFA708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD4EB92A74D12200CFA708 /* ContentView.swift */; };
+		34AD4EBC2A74D12400CFA708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AD4EBB2A74D12400CFA708 /* Assets.xcassets */; };
+		34AD4EC02A74D12400CFA708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AD4EBF2A74D12400CFA708 /* Preview Assets.xcassets */; };
+		34AD4EC82A74E0D600CFA708 /* Restaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34AD4EC62A74E0D600CFA708 /* Restaurant.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		349C05F12A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 - (TR) - CoreData Yapı Oluşturma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		349C05F42A73407100D10C43 /* _____TR____CoreData_Yap__Olus_turmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____TR____CoreData_Yap__Olus_turmaApp.swift"; sourceTree = "<group>"; };
-		349C05F62A73407100D10C43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		349C05F82A73407300D10C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		349C05FB2A73407300D10C43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		349C06032A73409500D10C43 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
-		34B079CF2A73532E00EFDD40 /* AddCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountryView.swift; sourceTree = "<group>"; };
+		34AD4EB42A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 - (TR) - CoreData İlişkiler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AD4EB72A74D12200CFA708 /* _____TR____CoreData_I_lis_kilerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____TR____CoreData_I_lis_kilerApp.swift"; sourceTree = "<group>"; };
+		34AD4EB92A74D12200CFA708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34AD4EBB2A74D12400CFA708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34AD4EBD2A74D12400CFA708 /* _____TR____CoreData_I_lis_kiler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_____TR____CoreData_I_lis_kiler.entitlements"; sourceTree = "<group>"; };
+		34AD4EBF2A74D12400CFA708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34AD4EC72A74E0D600CFA708 /* Food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		349C05EE2A73407100D10C43 /* Frameworks */ = {
+		34AD4EB12A74D12200CFA708 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		349C05E82A73407100D10C43 = {
+		34AD4EAB2A74D12200CFA708 = {
 			isa = PBXGroup;
 			children = (
-				349C05F32A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma */,
-				349C05F22A73407100D10C43 /* Products */,
+				34AD4EB62A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler */,
+				34AD4EB52A74D12200CFA708 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		349C05F22A73407100D10C43 /* Products */ = {
+		34AD4EB52A74D12200CFA708 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				349C05F12A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma.app */,
+				34AD4EB42A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		349C05F32A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma */ = {
+		34AD4EB62A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler */ = {
 			isa = PBXGroup;
 			children = (
-				349C05F42A73407100D10C43 /* _____TR____CoreData_Yap__Olus_turmaApp.swift */,
-				349C06022A73409400D10C43 /* CountryName.xcdatamodeld */,
-				349C05F62A73407100D10C43 /* ContentView.swift */,
-				34B079CF2A73532E00EFDD40 /* AddCountryView.swift */,
-				349C05F82A73407300D10C43 /* Assets.xcassets */,
-				349C05FA2A73407300D10C43 /* Preview Content */,
+				34AD4EB72A74D12200CFA708 /* _____TR____CoreData_I_lis_kilerApp.swift */,
+				34AD4EB92A74D12200CFA708 /* ContentView.swift */,
+				34AD4EC62A74E0D600CFA708 /* Restaurant.xcdatamodeld */,
+				34AD4EBB2A74D12400CFA708 /* Assets.xcassets */,
+				34AD4EBD2A74D12400CFA708 /* _____TR____CoreData_I_lis_kiler.entitlements */,
+				34AD4EBE2A74D12400CFA708 /* Preview Content */,
 			);
-			path = "5 - (TR) - CoreData Yapı Oluşturma";
+			path = "5 - (TR) - CoreData İlişkiler";
 			sourceTree = "<group>";
 		};
-		349C05FA2A73407300D10C43 /* Preview Content */ = {
+		34AD4EBE2A74D12400CFA708 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				349C05FB2A73407300D10C43 /* Preview Assets.xcassets */,
+				34AD4EBF2A74D12400CFA708 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +75,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		349C05F02A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma */ = {
+		34AD4EB32A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 349C05FF2A73407300D10C43 /* Build configuration list for PBXNativeTarget "5 - (TR) - CoreData Yapı Oluşturma" */;
+			buildConfigurationList = 34AD4EC32A74D12400CFA708 /* Build configuration list for PBXNativeTarget "5 - (TR) - CoreData İlişkiler" */;
 			buildPhases = (
-				349C05ED2A73407100D10C43 /* Sources */,
-				349C05EE2A73407100D10C43 /* Frameworks */,
-				349C05EF2A73407100D10C43 /* Resources */,
+				34AD4EB02A74D12200CFA708 /* Sources */,
+				34AD4EB12A74D12200CFA708 /* Frameworks */,
+				34AD4EB22A74D12200CFA708 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "5 - (TR) - CoreData Yapı Oluşturma";
-			productName = "5 - (TR) - CoreData Yapı Oluşturma";
-			productReference = 349C05F12A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma.app */;
+			name = "5 - (TR) - CoreData İlişkiler";
+			productName = "5 - (TR) - CoreData İlişkiler";
+			productReference = 34AD4EB42A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		349C05E92A73407100D10C43 /* Project object */ = {
+		34AD4EAC2A74D12200CFA708 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					349C05F02A73407100D10C43 = {
+					34AD4EB32A74D12200CFA708 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 349C05EC2A73407100D10C43 /* Build configuration list for PBXProject "5 - (TR) - CoreData Yapı Oluşturma" */;
+			buildConfigurationList = 34AD4EAF2A74D12200CFA708 /* Build configuration list for PBXProject "5 - (TR) - CoreData İlişkiler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +115,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 349C05E82A73407100D10C43;
-			productRefGroup = 349C05F22A73407100D10C43 /* Products */;
+			mainGroup = 34AD4EAB2A74D12200CFA708;
+			productRefGroup = 34AD4EB52A74D12200CFA708 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				349C05F02A73407100D10C43 /* 5 - (TR) - CoreData Yapı Oluşturma */,
+				34AD4EB32A74D12200CFA708 /* 5 - (TR) - CoreData İlişkiler */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		349C05EF2A73407100D10C43 /* Resources */ = {
+		34AD4EB22A74D12200CFA708 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349C05FC2A73407300D10C43 /* Preview Assets.xcassets in Resources */,
-				349C05F92A73407300D10C43 /* Assets.xcassets in Resources */,
+				34AD4EC02A74D12400CFA708 /* Preview Assets.xcassets in Resources */,
+				34AD4EBC2A74D12400CFA708 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		349C05ED2A73407100D10C43 /* Sources */ = {
+		34AD4EB02A74D12200CFA708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349C05F72A73407100D10C43 /* ContentView.swift in Sources */,
-				349C06042A73409500D10C43 /* CountryName.xcdatamodeld in Sources */,
-				349C05F52A73407100D10C43 /* _____TR____CoreData_Yap__Olus_turmaApp.swift in Sources */,
-				34B079D02A73532E00EFDD40 /* AddCountryView.swift in Sources */,
+				34AD4EBA2A74D12200CFA708 /* ContentView.swift in Sources */,
+				34AD4EB82A74D12200CFA708 /* _____TR____CoreData_I_lis_kilerApp.swift in Sources */,
+				34AD4EC82A74E0D600CFA708 /* Restaurant.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		349C05FD2A73407300D10C43 /* Debug */ = {
+		34AD4EC12A74D12400CFA708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,17 +201,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		349C05FE2A73407300D10C43 /* Release */ = {
+		34AD4EC22A74D12400CFA708 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,68 +253,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		349C06002A73407300D10C43 /* Debug */ = {
+		34AD4EC42A74D12400CFA708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "5 - (TR) - CoreData İlişkiler/_____TR____CoreData_I_lis_kiler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"5 - (TR) - CoreData Yapı Oluşturma/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"5 - (TR) - CoreData İlişkiler/Preview Content\"";
 				DEVELOPMENT_TEAM = MW2482B7WH;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AzmaniOS.-----TR----CoreData-Yap--Olus-turma";
+				PRODUCT_BUNDLE_IDENTIFIER = "AzmaniOS.-----TR----CoreData-I-lis-kiler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		349C06012A73407300D10C43 /* Release */ = {
+		34AD4EC52A74D12400CFA708 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "5 - (TR) - CoreData İlişkiler/_____TR____CoreData_I_lis_kiler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"5 - (TR) - CoreData Yapı Oluşturma/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"5 - (TR) - CoreData İlişkiler/Preview Content\"";
 				DEVELOPMENT_TEAM = MW2482B7WH;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AzmaniOS.-----TR----CoreData-Yap--Olus-turma";
+				PRODUCT_BUNDLE_IDENTIFIER = "AzmaniOS.-----TR----CoreData-I-lis-kiler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,20 +339,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		349C05EC2A73407100D10C43 /* Build configuration list for PBXProject "5 - (TR) - CoreData Yapı Oluşturma" */ = {
+		34AD4EAF2A74D12200CFA708 /* Build configuration list for PBXProject "5 - (TR) - CoreData İlişkiler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				349C05FD2A73407300D10C43 /* Debug */,
-				349C05FE2A73407300D10C43 /* Release */,
+				34AD4EC12A74D12400CFA708 /* Debug */,
+				34AD4EC22A74D12400CFA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		349C05FF2A73407300D10C43 /* Build configuration list for PBXNativeTarget "5 - (TR) - CoreData Yapı Oluşturma" */ = {
+		34AD4EC32A74D12400CFA708 /* Build configuration list for PBXNativeTarget "5 - (TR) - CoreData İlişkiler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				349C06002A73407300D10C43 /* Debug */,
-				349C06012A73407300D10C43 /* Release */,
+				34AD4EC42A74D12400CFA708 /* Debug */,
+				34AD4EC52A74D12400CFA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -349,17 +360,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		349C06022A73409400D10C43 /* CountryName.xcdatamodeld */ = {
+		34AD4EC62A74E0D600CFA708 /* Restaurant.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				349C06032A73409500D10C43 /* Data.xcdatamodel */,
+				34AD4EC72A74E0D600CFA708 /* Food.xcdatamodel */,
 			);
-			currentVersion = 349C06032A73409500D10C43 /* Data.xcdatamodel */;
-			path = CountryName.xcdatamodeld;
+			currentVersion = 34AD4EC72A74E0D600CFA708 /* Food.xcdatamodel */;
+			path = Restaurant.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 349C05E92A73407100D10C43 /* Project object */;
+	rootObject = 34AD4EAC2A74D12200CFA708 /* Project object */;
 }
