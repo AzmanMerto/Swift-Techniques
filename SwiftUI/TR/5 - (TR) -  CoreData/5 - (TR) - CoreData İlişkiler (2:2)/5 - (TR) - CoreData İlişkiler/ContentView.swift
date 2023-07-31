@@ -58,6 +58,13 @@ class ContentViewViewModel: ObservableObject {
     func getFood() {
         let request = NSFetchRequest<FoodEntity>(entityName: "FoodEntity")
         
+        
+        let sort = NSSortDescriptor(keyPath: \FoodEntity.name, ascending: true)
+        request.sortDescriptors = [sort]
+        
+        // let filter = NSPredicate( format: "name == %C", "Apple")
+        // request.predicate = filter
+        
         do {
             self.foodie = try instance.context.fetch(request)
         } catch {
@@ -129,6 +136,14 @@ class ContentViewViewModel: ObservableObject {
             self.getDrink()
             self.getCollation()
         }
+    }
+    
+    // --
+    
+    func deleteDrink() {
+        let drink = drinko[0]
+        instance.context.delete(drink)
+        save()
     }
     
 }
